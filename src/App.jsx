@@ -1,9 +1,11 @@
 import Carousel from "./Carousel";
+import SlickCarousel from "./SlickCarousel";
 import { shortList } from "./data";
 const App = () => {
   return (
     <main>
-      <Carousel />
+      {/* <Carousel /> */}
+      <SlickCarousel />
     </main>
   );
 };
