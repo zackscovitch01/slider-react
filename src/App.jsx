@@ -1,7 +1,9 @@
+import Carousel from "./Carousel";
+import { shortList } from "./data";
 const App = () => {
   return (
     <main>
-      <h2>Slider Starter</h2>
+      <Carousel />
     </main>
   );
 };
